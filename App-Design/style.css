@@ -1,0 +1,436 @@
+body html{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    
+    background-color: #92A9BD;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    background-color: #D9D7F1;
+    justify-content: center;
+    height: 90vh;
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 50px black,
+                      5px 5px 5px rgb(20, 20, 50);
+
+}
+.screen{
+    background-color: white;
+    justify-content: center;
+    height: 35vh;
+    top: 25%;
+    left: 50%;
+    width: 85vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 50px rgb(9, 255, 161),
+                      5px 5px 5px rgb(20, 20, 50);
+
+}
+.text{
+    position: absolute;
+    top: 47.5%;
+    left: 12%;
+    transform: translate(-50%, -50%);   
+}
+.image{
+    position: absolute;
+    height: 6vw;
+    width: 6vw;
+    top: 48.5%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+}
+.date{
+    position: absolute;
+    top: 48%;
+    left: 90%;
+    transform: translate(-50%, -50%);   
+}
+.sent{
+    background-color: white;
+    justify-content: center;
+    height: 10vh;
+    top: 58%;
+    left: 50%;
+    width: 85vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 50px rgb(9, 255, 161),
+                      5px 5px 5px rgb(20, 20, 50); 
+
+}
+.recevie{
+    background-color: white;
+    justify-content: center;
+    height: 10vh;
+    top: 71%;
+    left: 50%;
+    width: 85vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 50px rgb(9, 255, 161),
+                      5px 5px 5px rgb(20, 20, 50); 
+
+}
+.loan{
+    background-color: white;
+    justify-content: center;
+    height: 10vh;
+    top: 84%;
+    left: 50%;
+    width: 85vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 50px rgb(9, 255, 161),
+                      5px 5px 5px rgb(20, 20, 50);
+
+}
+.sentimg{
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    top: 49.5%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+.recevieimg{
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    top: 53%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+.loanimg{
+    position: absolute;
+    height: 4.5vw;
+    width: 4.5vw;
+    top: 51%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+.homeimg{
+    position: absolute;
+    height: 6.5vw;
+    width: 8.5vw;
+    top: 95%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+.menuimg{
+    position: absolute;
+    height: 6.5vw;
+    width: 8.5vw;
+    top: 95%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.plusimg{
+    position: absolute;
+    height: 3.5vw;
+    width: 6.5vw;
+    top: 95%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+.dollarimg{
+    position: absolute;
+    height: 4.5vw;
+    width: 9.5vw;
+    top: 95%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.userimg{
+    position: absolute;
+    height: 3.5vw;
+    width: 6.5vw;
+    top: 95%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+}
+.t{
+    position: absolute;
+    left: 10%;
+    top: -13%;
+    
+}
+.st{
+    position: absolute;
+    left: 10%;
+    top: 47%;
+    
+}
+.mainimg{
+    position: absolute;
+    height: 9.5vw;
+    width: 9.5vw;
+    top: 28%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.name{
+    position: absolute;
+    left: 37%;
+    top: 51%;
+    font-size: 3vw;
+}
+.price1{
+    position: absolute;
+    left: -10%;
+    top: 69%;
+    font-size: 2vw;
+}
+.price2{
+    position: absolute;
+    left: 1%;
+    top: 69%;
+    font-size: 2vw;
+}
+.price3{
+    position: absolute;
+    left: 12%;
+    top: 69%;
+    font-size: 2vw;
+}
+.inc{
+    position: absolute;
+    left: -10%;
+    top: 82%;
+    font-size: 1.3vw;
+}
+.exp{
+    position: absolute;
+    left: 1%;
+    top: 82%;
+    font-size: 1.3vw;
+}
+.lo{
+    position: absolute;
+    left: 12%;
+    top: 82%;
+    font-size: 1.3vw;
+}
+@media screen and (max-width: 1005px)
+{
+.date{
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+.text{
+    position: absolute;
+    top: 47.5%;
+    left: 15%;
+    transform: translate(-50%, -50%);   
+}
+.image{
+    position: absolute;
+    height: 6vw;
+    width: 6vw;
+    top: 48.5%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-width: 670px)
+{
+.date{
+    position: absolute;
+    top: 48%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-width: 550px)
+{
+.date{
+    position: absolute;
+    top: 48%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+.text{
+    position: absolute;
+    top: 47.5%;
+    left: 15%;
+    transform: translate(-50%, -50%);  
+    font-size: 3vw; 
+}
+.image{
+    position: absolute;
+    height: 6vw;
+    width: 6vw;
+    top: 48.5%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-width: 375px)
+{
+.date{
+    position: absolute;
+    top: 48%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+}
+.text{
+    position: absolute;
+    top: 47.5%;
+    left: 17%;
+    transform: translate(-50%, -50%);  
+    font-size: 6vw; 
+}
+.image{
+    position: absolute;
+    height: 9vw;
+    width: 9vw;
+    top: 48%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+.mainimg{
+    position: absolute;
+    height: 25.5vw;
+    width: 25.5vw;
+    top: 28%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.name{
+    position: absolute;
+    left: 24%;
+    top: 51%;
+    font-size: 6vw;
+}
+.price1{
+    position: absolute;
+    left: -17%;
+    top: 69%;
+    font-size: 4vw;
+}
+.price2{
+    position: absolute;
+    left: 3%;
+    top: 69%;
+    font-size: 4vw;
+}
+.price3{
+    position: absolute;
+    left: 22%;
+    top: 69%;
+    font-size: 4vw;
+}
+.inc{
+    position: absolute;
+    left: -17%;
+    top: 82%;
+    font-size: 3vw;
+}
+.exp{
+    position: absolute;
+    left: 3%;
+    top: 82%;
+    font-size: 3vw;
+}
+.lo{
+    position: absolute;
+    left: 22%;
+    top: 82%;
+    font-size: 3vw;
+}
+.t{
+    position: absolute;
+    left: 17%;
+    top: 3%;
+    font-size: 6vw;
+    
+}
+.st{
+    position: absolute;
+    left: 17%;
+    top: 47%;
+    font-size: 4vw;
+    
+}
+.sentimg{
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    top: 49.5%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+.recevieimg{
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    top: 53%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+.loanimg{
+    position: absolute;
+    height: 12vw;
+    width: 12vw;
+    top: 51%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+.homeimg{
+    position: absolute;
+    height: 15vw;
+    width: 18vw;
+    top: 95%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+}
+.menuimg{
+    position: absolute;
+    height: 11.5vw;
+    width: 16.5vw;
+    top: 95%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+.plusimg{
+    position: absolute;
+    height: 8.5vw;
+    width: 15.5vw;
+    top: 95%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+.dollarimg{
+    position: absolute;
+    height: 8.5vw;
+    width: 17.5vw;
+    top: 95%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+.userimg{
+    position: absolute;
+    height: 10.5vw;
+    width: 17.5vw;
+    top: 95%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+}
